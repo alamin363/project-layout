@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif ;
+  background: #aaaaaa3f;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1em;
+  margin: 25px 30px;
+}
+.left{
+  margin: 20px;
+  color: #3A3A3A;
+  ;
+}
+.right{
+  /*  */
+}
+.right ul{
+  display: flex;
+  
+}
+.right ul li{
+  list-style: none;
+  margin: 20px;
+}
+.right ul li a{
+  text-decoration: none;
+  color: #3A3A3A;
+  ;
+}
+.titel-side{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 20px;
+  align-items: center;
+}
+.titel h1, p, a{
+  margin-bottom: 20px;
+}
+.titel h1{
+  font-size: 2em;
+}
+.titel a{
+  text-decoration: none;
+  background-color: indianred;
+  color:white;
+  border-radius: 21px;
+  padding: 7px 20px;
+}
+.camera{
+  margin-left: 100px;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+}
+/* oder sesction */
+.contant{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 2em;
+}
+.container{
+ width: 329px;
+ height: 476px;
+ margin: 20px;
+ background-color: #ffffff;
+ border-radius: 5px;
+ box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.288);
+}
+.logo ul{
+  display: flex;
+  justify-content:space-evenly;
+  border: 1px solid rgba(0, 0, 0, 0.212);
+  height: 110px;
+  left: 165px;
+  width: 1110px;
+  border-radius: 0px;
+  top: 725px;
+  align-items:center ;
+  border-left: none;
+  border-right: none;
+}
+.logo ul li{
+ list-style-type: none;
+ align-items: center;
+ justify-content: center;
+}
+.titel-img{
+  margin-left: 5px;
+}
+.titel-img ul li{
+  list-style-type: none;
+}
+.titel-img ul{
+ display: flex;
+}
+
+button{
+  border: none;
+  margin-top: 20px;
+  color: red;
+  font-size: 1.5em;
+}
+
+/* =========
+   oder section
+     ============ */
+     .bottom{
+      margin-top:2em;
+      justify-items: center;
+      
+     }
+     /*  ========== footer ========== */
+     footer{
+      display: grid;
+      justify-content: center;
+      background-color: #0A0826;
+     }
+     footer>header{
+      color: #ffffff;
+     }
+     .icon ul{
+      display: flex;
+      
+     }
+     .icon>ul>li{
+      list-style: none;
+      background-color: #ffffff2c;
+      color: #ffffff;
+      margin: 20px;
+      border-radius: 2em;
+      padding: 10px;
+     }
